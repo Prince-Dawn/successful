@@ -26,3 +26,16 @@ export function Buttons2() {
     </>
   )
 }
+
+export function Buttons3() {
+  return (
+    <>
+    <div className=" flex justify-center items-center my-[30px]">
+      <input type="search" name="" id="" placeholder="Your Email..." className="w-[500px] h-[50px] text-xl translate-x-[65px] rounded-[25px] pl-[15px] font-normal placeholder:text-stone-700 text-stone-700 pr-[110px]"/>
+      <button type="submit" className="w-[100px] text-xl -translate-x-[40px] h-[40px] rounded-[25px] bg-[rgb(35,50,53)] font-normal">
+        Subscribe
+      </button>
+    </div>
+    </>
+  )
+}

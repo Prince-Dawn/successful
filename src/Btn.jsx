@@ -35,6 +35,7 @@ export function Buttons3() {
       <button type="submit" className="w-[100px] text-xl -translate-x-[40px] h-[40px] rounded-[25px] bg-[rgb(35,50,53)] font-normal">
         Subscribe
       </button>
+      <Buttons3/>
     </div>
     </>
   )
